@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    height: 100%;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+.card{
+   background-color:  hsl(0, 0%, 100%) ;
+   display: flex;
+   margin-left:30%;
+   margin-top: 300px;
+   
+}
+.container1{
+    width: 320px;
+    height: 440px;
+    border-radius: 30px;
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+.heading1{
+     color: hsl(241, 100%, 89%) ;
+     font-size: 20px;
+     text-align: center;
+     padding: 30px;
+}
+.circle{
+    align-items: center;
+     margin-left: 60px;
+     border-radius: 50%;
+     width: 200px;
+     height: 200px;
+     background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+.paragraph1{
+    margin-left: 70px ;
+    padding-top: 50px;
+    color:hsl(0, 0%, 100%) ;
+    font-size: 60px;
+    font-weight: 700;
+    
+}
+.paragraph2{
+   margin-left: 80px;
+   color:  hsl(241, 100%, 89%);
+}
+#heading2{
+    color: hsl(0, 0%, 100%) ;
+    text-align: center;
+}
+#paragraph4{
+    text-align: center;
+    color:  hsl(241, 100%, 89%);
+}
+.container2{
+    background-color: hsl(0, 0%, 100%) ;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 320px;
+    height: 440px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+.heading3{
+    margin-left: 30px;
+    color: hsl(224, 30%, 27%);
+}
+
+.reaction,.memory,.verbal,.visual {
+    margin-top: 10px;
+    height: 50px;
+    width: 260px;
+    border-radius: 5%;
+    font-weight:bold;
+    font-size: 16px;
+    line-height:50px;
+    margin-left: 30px;
+    
+    
+}
+
+.reaction {
+    background-color: rgba(251, 54, 54, 0.1);
+    color: rgb(228, 104, 104);
+}
+
+.memory {
+    background-color: rgba(237, 219, 25, 0.1);
+    color: rgb(235, 235, 143);
+}
+
+.verbal {
+    background-color: rgba(0, 235, 143,0.1);
+    color:rgb(90, 235, 143);
+}
+
+.visual {
+    background-color: rgba(0, 100, 245,0.1);
+    color: rgb(0, 100, 245);
+}
+
+.test-score {
+    display: inline-block;
+    color:navy;
+    width: 122px;
+    text-align: right;
+}
+
+.verbal .test-score {
+    width: 135px;
+}
+
+.visual .test-score {
+    width: 140px;
+}
+
+.test-percent {
+    display: inline;
+    text-align: right;
+    color: rgba(128, 128, 128,0.7);
+}
+button {
+    background-color: hsl(224, 30%, 27%);
+    color:white;
+    height: 50px;
+    width: 240px;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-top: 18px;
+    margin-left: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+    background:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+.attribution{
+    text-align: center;
+    padding-top: 30px;
+}
+
